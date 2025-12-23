@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Iven Rodrigues</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <nav class="menu">
+            <a class="menu__item" href="#">Home</a>
+            <a class="menu__item" href="#sobre">Sobre</a>
+            <a class="menu__item" href="#projetos">Projetos</a>
+        </nav>
+    </header>
+
+    <main class="principal">
+        <section class="apresentacao" id="sobre">
+            <div class="apresentacao__conteudo">
+                <h1 class="titulo">
+                    Olá, sou Iven Rodrigues <br>
+                    <span class="titulo-destaque">SysAdmin & Entusiasta Linux</span>
+                </h1>
+                <p class="texto">
+                    Focado em <strong>Infraestrutura, Automação e Redes</strong>. 
+                    Especialista em construir ambientes robustos com <strong>Docker</strong> e explorar o potencial do mundo Open Source. 
+                    Sempre em busca de otimizar sistemas e aprender novas tecnologias.
+                </p>
+                <div class="botoes">
+                    <a class="btn btn-primary" href="https://github.com/IvenRodrigues">
+                        <img src="./assets/github.png" alt="Icone GitHub"> GitHub
+                    </a>
+                    <a class="btn btn-secondary" href="https://www.linkedin.com/in/iven-rodrigues-santos-a7a309194">
+                        <img src="./assets/linkedin.png" alt="Icone LinkedIn"> LinkedIn
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="projetos" id="projetos">
+            <h2 class="subtitulo">Meus Projetos</h2>
+            
+            <div class="cards-container">
+                <div class="card">
+                    <div class="card-header">
+                        <span>INFRAESTRUTURA</span>
+                    </div>
+                    <h3>Ultimate Home Server</h3>
+                    <p>
+                        Servidor doméstico automatizado rodando em <strong>Docker</strong> no Linux. 
+                        Gerenciamento de DNS (Pi-hole), Proxy Reverso SSL e stack de mídia integrada.
+                    </p>
+                    <div class="tech-tags">
+                        <span>Docker</span>
+                        <span>Linux</span>
+                        <span>Redes</span>
+                    </div>
+                    <a href="https://github.com/IvenRodrigues/media-center-docker" class="btn-card">Ver Infraestrutura</a>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <span>WEB</span>
+                    </div>
+                    <h3>Portfólio Pessoal</h3>
+                    <p>
+                        Página pessoal minimalista desenvolvida para apresentação profissional.
+                    </p>
+                    <div class="tech-tags">
+                        <span>HTML5</span>
+                        <span>CSS3</span>
+                    </div>
+                    <a href="https://github.com/IvenRodrigues/portifolio" class="btn-card">Ver Código</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>Desenvolvido por Iven Rodrigues. &copy; 2025</p>
+    </footer>
+</body>
+</html>
